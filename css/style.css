@@ -1,0 +1,202 @@
+/* Reset generale */
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Impostazioni generali */
+a{
+  color: black;
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+.conteiner{
+  width: 70%;
+  margin: 0 auto;
+}
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.button{
+  border: 1px solid #fe775a;
+  background: #fe775a;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.fa-check{
+  font-size: 10px;
+  color: white;
+  background: #fe775a;
+  border-radius: 50%;
+  padding: 1px;
+  margin-right: 5px;
+  position: relative;
+  bottom: 2px;
+}
+
+/* Impostazioni Header top */
+header .top{
+  width: 100%;
+  padding: 15px 0px;
+  height: 80px;
+  background: #F5F8FA;
+  line-height: 40px;
+}
+header .top .fa-angle-down{
+  margin-right: 10px;
+}
+header .top .contact{
+  border-left: 1px solid gray;
+  padding-left: 10px;
+}
+header .top .registrazione{
+  text-align: right;
+  float: right;
+}
+header .top .registrazione .fa-search{
+  color: #45BBCE;
+}
+header .top .registrazione .login{
+  background: white;
+  margin: 0px 15px;
+}
+header .top .registrazione .button a{
+  color: white;
+}
+header .top .registrazione .login a{
+  background: white;
+  color: black;
+  margin: 0px 10px;
+}
+
+/* Impostazione menu */
+header nav .conteiner img{
+  margin: 20px 0px;
+}
+header nav .conteiner .header_menu{
+  float: right;
+}
+header nav .conteiner .header_menu li{
+  display: inline-block;
+  line-height: 74px;
+  margin-left: 15px;
+}
+header nav .conteiner .header_menu .fa-angle-down{
+  margin-left: 8px;
+}
+
+/* Impostazioni header middle */
+header .middle{
+  height: 600px;
+  background-image: url(../img/sfondo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+}
+header .middle .conteiner .intro{
+  width: 45%;
+  padding-top: 45px;
+}
+header .middle .conteiner .intro h1{
+  font-size: 45px;
+}
+header .middle .conteiner .intro p{
+  margin: 30px 0px 60px 0px;
+}
+header .middle .conteiner .intro .button{
+  padding: 20px 40px;
+  margin-bottom: 40px;
+}
+header .middle .conteiner .intro .small{
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+/* Impostazionei header bottom */
+header .bottom{
+  background: #afebe4;
+  height: 70px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+/* Impostazioni main generale */
+main{
+  background: #F5F8FA;
+  height: 1500px;
+}
+
+/* Impostazione main top */
+main .top{
+  text-align: center;
+  padding: 50px 0px;
+}
+main .top img{
+  width: 25%;
+}
+main .top p{
+  width: 80%;
+  padding-top: 30px;
+  margin: auto;
+}
+
+/* Impostazione riga main */
+main .row{
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  height: 250px;
+}
+
+/* Riga sinistra */
+main .row .left{
+  float: left;
+  width: 30%;
+  text-align: center;
+  height: 100%;
+  padding-top: 40px;
+}
+main .row .left img{
+  width: 40%;
+  margin-bottom: 20px;
+}
+main .row .left .button{
+  padding: 15px 30px;
+}
+
+/* Riga destra */
+main .row .right{
+  float: left;
+  width: 70%;
+  height: 100%;
+  padding-top: 40px;
+}
+main .row .right p{
+  font-size: 14px;
+  width: 70%;
+  padding: 20px 0px;
+}
+main .row .right span{
+  font-size: 20px;
+  font-weight: bold;
+}
+main .row .right hr{
+  display: inline-block;
+  border: 1px solid black;
+  background: black;
+  width: 50%;
+  margin-left: 30px;
+  margin-bottom:7px;
+}
+main .row .right li{
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+/* Impostazioni main colonne */
