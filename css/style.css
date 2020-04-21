@@ -102,7 +102,7 @@ header .top .registrazione .login{
 }
 header .top .registrazione a .button {
   color: white;
-  font-size: 15px;
+  font-size: 13px;
 }
 header .top .registrazione .login a{
   background: white;
@@ -480,7 +480,6 @@ footer .bottom .right a:hover{
   right: 0;
 }
 .cerchio{
-  float: left;
   position: absolute;
   bottom: 20px;
   right: 30px;
@@ -495,8 +494,6 @@ footer .bottom .right a:hover{
   z-index: 1;
 }
 .messaggio{
-  display: none;
-  float: left;
   width: 190px;
   background: white;
   font-size: 14px;
@@ -525,9 +522,6 @@ footer .bottom .right a:hover{
   display: none;
 }
 .cerchio:hover .fa-times{
-  display: inline-block;
-}
-.cerchio:hover .messaggio{
   display: inline-block;
 }
 /* Fine messaggio aiuto */
