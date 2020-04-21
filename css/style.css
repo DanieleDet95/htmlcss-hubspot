@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
 /* Impostazioni generali */
 a{
@@ -29,6 +32,9 @@ li{
   border-radius: 5px;
   color: white;
 }
+.button:hover{
+  opacity: 0.7;
+}
 .fa-check{
   font-size: 10px;
   color: white;
@@ -43,6 +49,16 @@ li{
   margin-top: 50px;
   font-size: 12px;
 }
+main .col:hover{
+  box-shadow: 3px 3px 3px 3px gray;
+  padding: 12px;
+  padding-bottom: 37px
+}
+main .row:hover{
+  box-shadow: 3px 3px 3px 3px gray;
+  padding: 2px;
+}
+/* Fine impostazioni generali */
 
 /* Impostazioni Header top */
 header .top{
@@ -51,6 +67,10 @@ header .top{
   height: 80px;
   background: #F5F8FA;
   line-height: 40px;
+  border-bottom: 1px solid lightgray;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 header .top .fa-angle-down{
   margin-right: 10px;
@@ -62,6 +82,8 @@ header .top .contact{
 header .top .contact a{
   color: black;
 }
+
+/* Header registrazione */
 header .top .registrazione{
   text-align: right;
   float: right;
@@ -73,16 +95,20 @@ header .top .registrazione .login{
   background: white;
   margin: 0px 15px;
 }
-header .top .registrazione .button a{
+header .top .registrazione a .button {
   color: white;
+  font-size: 15px;
 }
 header .top .registrazione .login a{
   background: white;
-  color: black;
+  color: #fe775a;
   margin: 0px 10px;
 }
 
 /* Impostazione menu */
+header nav{
+  padding-top: 80px;
+}
 header nav .conteiner img{
   margin: 20px 0px;
 }
@@ -131,6 +157,7 @@ header .bottom{
   border-top: 3px solid black;
   border-bottom: 3px solid black;
 }
+/* Fine header generale */
 
 /* Impostazioni main generale */
 main{
@@ -158,8 +185,6 @@ main .row{
   border-radius: 5px;
   margin-bottom: 50px;
 }
-
-/* Riga sinistra */
 main .row .left{
   float: left;
   width: 30%;
@@ -173,8 +198,6 @@ main .row .left img{
 main .row .left .button{
   padding: 15px 30px;
 }
-
-/* Riga destra */
 main .row .right{
   float: left;
   width: 70%;
@@ -258,18 +281,20 @@ main .sfumatura .top{
 main .sfumatura .top h2{
   font-size: 32px;
 }
+
+/* Impostazioni blocchi */
 main .sfumatura .bottom .blocco{
   float: left;
   width: 25%;
   padding-top: 20px;
-  border-right: 1px solid black;
+  border-right: 1px solid white;
   text-align: center;
 }
 main .sfumatura .bottom .blocco:nth-child(1),
 main .sfumatura .bottom .blocco:nth-child(2),
 main .sfumatura .bottom .blocco:nth-child(3),
 main .sfumatura .bottom .blocco:nth-child(4){
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 main .sfumatura .bottom .blocco:nth-child(4),
 main .sfumatura .bottom .blocco:nth-child(8){
@@ -341,27 +366,102 @@ main .ragazza img{
   float: right;
   width: 45%;
 }
+/* Fine main generale */
 
 /* Impostazioni footer */
 footer{
   background: #33475B;
-  height: 400px;
+  color: lightgray;
 }
+
+/* Footer generali */
+footer i,
+footer a{
+  color: lightgray;
+}
+
 footer .col{
   float: left;
   width: 25%;
 }
 footer .col h2{
   color: white;
-  font-size: 18px;
+  font-size: 17px;
   padding: 30px 0 30px 0;
 }
 footer .col ul li {
   padding-bottom: 20px;
 }
 footer .col ul li a{
-  color: lightgray;
+  font-size: 14px;
 }
 footer .col ul li a:hover{
+  color: #7FD1DE;
+}
+footer .col ul li:last-child{
+  margin-bottom: 20px;
+}
+
+/* impostazione bottone */
+footer .button{
+  background: white;
+  color: #33475B;
+  border: none;
+  padding: 15px 15px;
+}
+footer .button a{
+  color: #33475B;
+}
+
+/* Impostazione social */
+footer .social i{
+  width: 18%;
+  padding-top: 30px;
+  font-size: 22px;
+}
+
+/* Impostazione lingua */
+footer .lingue{
+  width: 55%;
+  margin: auto;
+  padding-top: 50px;
+}
+footer .lingue span a{
+  margin: 10px;
+  font-size: 15px;
+}
+
+/* Impostazione riga */
+footer hr{
+  margin-top: 20px;
+}
+
+/* Impostazione footer inferiore */
+footer .bottom .left{
+  float: left;
+  width: 25%;
+}
+footer .bottom .left img{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+footer .bottom .left p{
+  padding-bottom: 40px;
+}
+footer .bottom .right{
+  float: left;
+  text-align: right;
+  width: 75%;
+  font-size: 21px;
+  margin-top: 50px;
+}
+footer .bottom .right a{
+  margin-left: 15px;
+}
+
+/* Impostazione hover footer */
+footer .social i:hover,
+footer .lingue span a:hover,
+footer .bottom .right a:hover{
   color: #7FD1DE;
 }
