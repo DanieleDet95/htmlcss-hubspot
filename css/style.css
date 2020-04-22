@@ -26,12 +26,12 @@ li{
   clear: both;
 }
 .button{
-  border: 1px solid #fe775a;
-  background: #fe775a;
-  padding: 5px 30px;
-  border-radius: 5px;
-  color: white;
   display: inline-block;
+  background: #fe775a;
+  color: white;
+  padding: 5px 30px;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
 }
 .button:hover{
   opacity: 0.7;
@@ -40,14 +40,14 @@ li{
   display: inline-block;
 }
 .fa-check{
-  font-size: 10px;
-  color: white;
+  position: relative;
   background: #fe775a;
-  border-radius: 50%;
+  color: white;
+  font-size: 10px;
   padding: 1px;
   margin-right: 5px;
-  position: relative;
   bottom: 2px;
+  border-radius: 50%;
 }
 .small{
   padding-top: 10px;
@@ -66,16 +66,16 @@ main .row:hover{
 
 /* Impostazioni Header top */
 header .top{
-  width: 100%;
-  padding: 15px 0px;
-  height: 80px;
-  background: #F5F8FA;
-  line-height: 40px;
-  border-bottom: 1px solid lightgray;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
+  width: 100%;
+  height: 80px;
+  background: #F5F8FA;
+  padding: 15px 0px;
+  line-height: 40px;
+  border-bottom: 1px solid lightgray;
 }
 header .top .fa-angle-down{
   margin-right: 10px;
@@ -157,17 +157,18 @@ header .middle .conteiner .intro .button{
 
 /* Impostazionei header bottom */
 header .bottom{
-  background: #afebe4;
   height: 70px;
+  background: #afebe4;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
 }
+
 /* Fine header generale */
 
 /* Impostazioni main generale */
 main{
-  background: #F5F8FA;
   height: 1500px;
+  background: #F5F8FA;
 }
 
 /* Impostazione main top */
@@ -180,15 +181,15 @@ main .top img{
 }
 main .top p{
   width: 80%;
-  padding-top: 30px;
   margin: auto;
+  padding-top: 30px;
 }
 
 /* Impostazione riga main */
 main .row{
+  margin-bottom: 50px;
   border: 2px solid lightgray;
   border-radius: 5px;
-  margin-bottom: 50px;
 }
 main .row .left{
   float: left;
@@ -209,8 +210,8 @@ main .row .right{
   padding-top: 40px;
 }
 main .row .right p{
-  font-size: 14px;
   width: 70%;
+  font-size: 14px;
   padding: 20px 0px;
 }
 main .row .right span{
@@ -219,11 +220,11 @@ main .row .right span{
 }
 main .row .right hr{
   display: inline-block;
-  border: 1px solid gray;
-  background: gray;
   width: 50%;
+  background: gray;
   margin-left: 30px;
   margin-bottom:7px;
+  border: 1px solid gray;
 }
 main .row .right li{
   display: inline-block;
@@ -235,15 +236,15 @@ main .row .right li{
 /* Impostazioni main colonne */
 main .col{
   float: left;
-  margin-right: 5%;
   width: 30%;
-  border: 1px solid black;
   text-align: center;
   padding: 15px;
   padding-bottom: 40px;
+  margin-right: 5%;
+  margin-bottom: 50px;
+  border: 1px solid black;
   border: 2px solid lightgray;
   border-radius: 5px;
-  margin-bottom: 50px;
 }
 main .col:last-child{
   margin-right: 0%;
@@ -257,10 +258,10 @@ main .col p{
   margin-top: 20px;
 }
 main .col hr{
-  background: gray;
-  border: 1px solid gray;
   width: 90%;
+  background: gray;
   margin: auto;
+  border: 1px solid gray;
 }
 main .col h3{
   margin: 20px;
@@ -276,8 +277,8 @@ main .col .button{
 
 /* Main sfondo sfumato */
 main .sfumatura{
-  color: white;
   background-image: linear-gradient(to right, #00A9B9 , #00B8AA);
+  color: white;
   padding-bottom: 70px;
 }
 main .sfumatura .top{
@@ -291,9 +292,9 @@ main .sfumatura .top h2{
 main .sfumatura .bottom .blocco{
   float: left;
   width: 25%;
+  text-align: center;
   padding-top: 20px;
   border-right: 1px solid white;
-  text-align: center;
 }
 main .sfumatura .bottom .blocco:nth-child(1),
 main .sfumatura .bottom .blocco:nth-child(2),
@@ -322,8 +323,8 @@ main .bottom{
 main .bottom .paesi{
   float: left;
   width: 25%;
-  padding: 0px 10px 55px 55px;
   font-size: 13px;
+  padding: 0px 10px 55px 55px;
 }
 main .bottom .paesi h2{
   font-size: 38px;
@@ -373,13 +374,13 @@ main .ragazza img{
 }
 /* Fine main generale */
 
-/* Impostazioni footer */
+/* Impostazioni footer generale*/
 footer{
   background: #33475B;
   color: lightgray;
 }
 
-/* Footer generali */
+/* Impostazione footer */
 footer i,
 footer a{
   color: lightgray;
@@ -407,12 +408,12 @@ footer .col ul li:last-child{
   margin-bottom: 20px;
 }
 
-/* impostazione bottone */
+/* Impostazione bottone */
 footer .button{
   background: white;
   color: #33475B;
-  border: none;
   padding: 15px 15px;
+  border: none;
 }
 footer .button a{
   color: #33475B;
@@ -421,8 +422,8 @@ footer .button a{
 /* Impostazione social */
 footer .social i{
   width: 18%;
-  padding-top: 30px;
   font-size: 22px;
+  padding-top: 30px;
 }
 
 /* Impostazione lingua */
@@ -455,8 +456,8 @@ footer .bottom .left p{
 }
 footer .bottom .right{
   float: left;
-  text-align: right;
   width: 70%;
+  text-align: right;
   font-size: 21px;
   margin-top: 50px;
 }
@@ -473,7 +474,6 @@ footer .bottom .right a:hover{
 
 /* Impostazione messaggio aiuto */
 .aiuto{
-  position: relative;
   background: red;
   position: fixed;
   bottom: 0;
@@ -483,35 +483,36 @@ footer .bottom .right a:hover{
   position: absolute;
   bottom: 20px;
   right: 30px;
-  background-color: rgb(66, 91, 118);
+  z-index: 1;
   width: 70px;
   height: 70px;
+  background-color: rgb(66, 91, 118);
+  color: white;
+  font-size: 30px;
   text-align: center;
   line-height: 70px;
   border-radius: 50%;
-  color: white;
-  font-size: 30px;
-  z-index: 1;
 }
 .messaggio{
-  width: 190px;
-  background: white;
-  font-size: 14px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  padding: 20px;
+  display: none;
   position: absolute;
   bottom: 100px;
   right: 30px;
   z-index: 1;
+  width: 190px;
+  background: white;
+  font-size: 14px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 .robot img{
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
   position: absolute;
   bottom: 70px;
   left: 70px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
 }
 .fa-times{
   display: none;
@@ -522,6 +523,9 @@ footer .bottom .right a:hover{
   display: none;
 }
 .cerchio:hover .fa-times{
+  display: inline-block;
+}
+.aiuto:hover .messaggio{
   display: inline-block;
 }
 /* Fine messaggio aiuto */
