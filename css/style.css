@@ -252,8 +252,11 @@ main .col:last-child{
 main .col img{
   height: 100px;
 }
+main .col h2{
+  height: 40px;
+}
 main .col p{
-  height: 100px;
+  height: 130px;
   font-size: 14px;
   margin-top: 20px;
 }
@@ -270,6 +273,7 @@ main .col h3{
 main .col ul{
   text-align: left;
   margin-bottom: 50px;
+  height: 50px;
 }
 main .col .button{
   padding: 20px 40px;
@@ -529,3 +533,304 @@ footer .bottom .right a:hover{
   display: inline-block;
 }
 /* Fine messaggio aiuto */
+
+/* Impostazione media query */
+@media screen and (max-width: 850px) {
+  /* Generali */
+  .button{
+    padding: 3px 10px;
+  }
+  /* Impostazione header top */
+  header .top{
+    height: 90px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+  }
+  header .top .conteiner{
+    width: 90%;
+  }
+  header .top .contact{
+    width: 100%;
+  }
+  header .top .registrazione{
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  /* Impostazione header nav */
+  header nav .conteiner {
+    text-align: center;
+  }
+  header nav .conteiner .header_menu{
+    width: 100%;
+  }
+  header nav .conteiner .header_menu li{
+    line-height: 35px;
+    margin-left: 10px;
+  }
+  header nav .conteiner .header_menu .fa-angle-down{
+    margin-left: 0px;
+  }
+
+  /* Impostazioni header middle */
+  header .middle{
+    height: 400px;
+    background-size: cover;
+    background-position: bottom;
+  }
+  header .middle .conteiner .intro{
+    width: 70%;
+    padding-top: 50px;
+  }
+  header .middle .conteiner .intro h1{
+    font-size: 25px;
+  }
+  header .middle .conteiner .intro p{
+    margin: 10px 0px 10px 0px;
+    font-size: 12px;
+  }
+  header .middle .conteiner .intro .small{
+    font-size: 8px;
+  }
+  header .middle .conteiner .intro .button{
+    padding: 5px 10px;
+    margin-bottom: 20px;
+  }
+
+  /* Impostazionei header bottom */
+  header .bottom{
+    height: 50px;
+    margin-top: -50px;
+  }
+
+  /* Impostazionei header bottom */
+  header .bottom{
+    height: 70px;
+    background: #afebe4;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+
+  /* Fine header generale */
+
+  /* Impostazioni main generale */
+  main{
+    height: 100%;
+  }
+
+  /* Impostazione main top */
+  main .top{
+    text-align: center;
+    padding: 20px 0px;
+  }
+  main .top h1{
+    font-size: 25px;
+  }
+  main .top img{
+    width: 35%;
+  }
+  main .top p{
+    padding-top: 15px;
+    font-size: 13px;
+  }
+
+  /* Impostazione riga main */
+  main .row{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  main .row .left{
+    float: none;
+    width: 100%;
+    padding-top: 40px;
+  }
+  main .row .left img{
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  main .row .left .button{
+    padding: 15px 30px;
+  }
+  main .row .right{
+    float: none;
+    width: 100%;
+    padding-top: 40px;
+  }
+  main .row .right p{
+    width: 80%;
+    font-size: 13px;
+    margin: auto;
+  }
+  main .row .right span{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  main .row .right hr{
+    width: 80%;
+    margin-left: 0px;
+  }
+  main .row .right li{
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  /* Impostazioni main colonne */
+  main .col{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+  }
+  main .col p{
+    height: 50px;
+    font-size: 13px;
+    width: 80%;
+    margin: 20px auto;
+  }
+  main .col h3{
+    font-size: 20px;
+  }
+  main .col ul{
+    float: left;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  main .col .button{
+    padding: 20px 40px;
+  }
+
+  /* Main sfondo sfumato */
+  main .sfumatura{
+    padding-bottom: 70px;
+  }
+  main .sfumatura .top h2{
+    font-size: 20px;
+  }
+  /* Impostazioni blocchi */
+  main .sfumatura .bottom .blocco{
+    float: left;
+    width: 50%;
+    height: 130px;
+    margin: auto;
+    border: 1px solid white;
+  }
+  main .sfumatura .bottom .blocco:nth-child(4),
+  main .sfumatura .bottom .blocco:nth-child(8){
+    border-right: 1px solid white;;
+  }
+  main .sfumatura .bottom .blocco img{
+    height: 25px;
+  }
+
+  /* Impostazione main bottom */
+  main .bottom{
+    padding-top: 25px;
+  }
+  main .bottom .paesi{
+    float: none;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  main .bottom .paesi h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  main .bottom .paesi p{
+    line-height: 20px;
+  }
+
+  /* Impostazioni sponsor */
+  main .bottom .sponsor{
+    float: none;
+    width: 100%;
+    padding: 10px;
+  }
+  main .bottom .sponsor img{
+    width: 28%;
+    margin: 5px 5px;
+  }
+
+  main .start{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  main .start p{
+    font-size: 13px;
+    margin: 10px 0 20px 0;
+  }
+  main .start .button{
+    padding: 5px 15px;
+  }
+  main .start .small{
+    padding-top: 8px;
+    font-size: 8px;
+  }
+  main .ragazza{
+    float: none;
+    width: 50%;
+    margin: auto;
+  }
+  main .ragazza img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Impostazione footer */
+
+  footer .col{
+    float: none;
+    width: 100%;
+  }
+  footer .col h2{
+    color: white;
+    font-size: 17px;
+    padding: 15px 0 15px 0;
+  }
+  footer .col ul li a{
+    font-size: 13px;
+  }
+
+  /* Impostazione social */
+  footer .social i{
+    font-size: 17px;
+    padding-top: 20px;
+  }
+
+  /* Impostazione lingua */
+  footer .lingue{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  footer .lingue span a{
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  /* Impostazione footer inferiore */
+  footer .bottom .left{
+    float: left;
+    width: 40%;
+  }
+  footer .bottom .left img{
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  footer .bottom .left p{
+    font-size: 10px;
+  }
+  footer .bottom .right{
+    float: left;
+    width: 60%;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+}
